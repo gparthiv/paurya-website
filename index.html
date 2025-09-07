@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Paurya Dashboard</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="container">
+    <header class="header">
+      <div class="logo">Paurya</div>
+      <div class="user-profile">Welcome Parthiv Ghosh!</div>
+    </header>
+
+    <section class="hero">
+      <h1 class="hero-title">Your City, Your Impact.</h1>
+      <h1 class="hero-title">Powered by Paurya.</h1>
+    </section>
+
+
+    <main class="dashboard-grid">
+
+      <section class="action-card">
+        <h1>Report an Issue</h1>
+        <p>Spotted a problem in your neighborhood? Let our AI agent help you log it.</p>
+        <button class="report-button" id="reportIssueBtn">
+          Launch Paurya AI Assistant
+        </button>
+      </section>
+      <section class="metrics-card">
+        <div class="metrics-grid">
+          <div class="metric-item">
+            <h3>1,250</h3>
+            <p>Civic Coins Earned</p>
+          </div>
+          <div class="metric-item">
+            <h3>250</h3>
+            <p>Citizens Impacted</p>
+          </div>
+          <div class="metric-item">
+            <h3 class="gold-text">Gold</h3>
+            <p>Contributor Tier</p>
+          </div>
+          <div class="metric-item">
+            <h3>3</h3>
+            <p>Projects Supported</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="projects-section">
+        <h2 class="section-title">Your Supported Projects</h2>
+        <div class="projects-grid">
+          <div class="project-card">
+            <h4>Pothole Repair - 2nd Ave</h4>
+            <div class="progress-bar-container">
+              <div class="progress-bar" style="width: 80%;"></div>
+            </div>
+            <div class="project-meta">
+              <span>80% Funded</span>
+              <span>Reward: 500 Coins</span>
+            </div>
+          </div>
+          <div class="project-card">
+            <h4>Solar Light - City Park</h4>
+            <div class="progress-bar-container">
+              <div class="progress-bar" style="width: 100%;"></div>
+            </div>
+            <div class="project-meta">
+              <span>100% - Complete!</span>
+              <span>Reward: 1200 Coins</span>
+            </div>
+          </div>
+          <div class="project-card">
+            <h4>Park Bench Repair</h4>
+            <div class="progress-bar-container">
+              <div class="progress-bar" style="width: 45%;"></div>
+            </div>
+            <div class="project-meta">
+              <span>45% Funded</span>
+              <span>Reward: 300 Coins</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="projects-section">
+        <h2 class="section-title">Nearby Community Issues</h2>
+        <div class="projects-grid" style="grid-template-columns: 1fr;">
+          <div class="vote-card">
+            <div class="vote-info">
+              <h4>Waste Management - Market Area</h4>
+              <p>Cost: ₹15,000 | Reward: 800 Coins</p>
+            </div>
+            <div class="vote-actions">
+              <button class="vote-button upvote">&#8593;</button>
+              <span class="vote-count">152</span>
+              <button class="vote-button downvote">&#8595;</button>
+            </div>
+          </div>
+          <div class="vote-card">
+            <div class="vote-info">
+              <h4>Playground Swing Repair</h4>
+              <p>Cost: ₹5,000 | Reward: 250 Coins</p>
+            </div>
+            <div class="vote-actions">
+              <button class="vote-button upvote">&#8593;</button>
+              <span class="vote-count">98</span>
+              <button class="vote-button downvote">&#8595;</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <div class="footer-content">
+          <p>
+            <strong>Paurya</strong> by Parthiv Ghosh.
+            <br>
+            A submission for the IndiaAI Impact Gen-AI Hackathon.
+          </p>
+          <div class="logo-grid">
+            <img src="assets/meit.png">
+            <img src="assets/india-ai.png">
+            <img class="ibm-logo" src="assets/ibm.png">
+            <img src="assets/iisc.png">
+            <img src="assets/cni.png">
+            <img src="assets/cisco.png">
+          </div>
+        </div>
+      </footer>
+
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
